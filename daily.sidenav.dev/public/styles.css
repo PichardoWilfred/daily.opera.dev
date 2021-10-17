@@ -1,0 +1,19 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* might need to change this */
+.container{  
+    width:100vw;
+    height:100vh;
+}
+
+embed{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "daily.dev | Opera sidenav-action",
+    "description": "Now available on your Opera sidenav!!",
+    "version": "1.0",
+    "homepage_url": "https://daily.dev",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "content_security_policy": "script-src 'self' https://app.daily.dev https://github.com; object-src 'self' https://app.daily.dev;",
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "icons": {
+        "16": "/images/black/icon16.png",
+        "32": "/images/black/icon32.png",
+        "128": "/images/black/icon32.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "32": "images/icon32.png",
+            "128": "/images/icon32.png"
+        },
+        "default_title": "daily.dev | OperaGx"
+    },
+    "sidebar_action": {
+        "default_title": "daily.dev | OperaGx",
+        "default_panel": "/public/panel.html",
+        "default_icon": {
+            "16": "/images/icon16.png",
+            "32": "/images/icon32.png"
+        }
+    }
+}
